@@ -1,8 +1,29 @@
- Wine Dataset Analysis: EDA and Classification with Machine Learning
-This project performs Exploratory Data Analysis (EDA) and classification modeling on the Wine dataset, which contains chemical analysis of wines derived from three different cultivars. The goal is to explore the dataset, understand its underlying patterns, and apply machine learning models to classify wine types accurately.
+Wine Dataset Analysis: EDA and Classification with Machine Learning
+This project performs Exploratory Data Analysis (EDA) and classification modeling on the Wine dataset, which contains chemical analysis of wines derived from three different cultivars.
 
-Tools & Technologies
-a) Python (NumPy, Pandas)
-b) Matplotlib & Seaborn (Data visualization)
-c) Scikit-learn (Modeling, preprocessing, evaluation)
+Objective:
+Explore the dataset thoroughly and understand patterns and feature relationships
+Apply machine learning models to classify wine types accurately
 
+Tools & Technologies:
+Python: NumPy, Pandas
+Data Visualization: Matplotlib, Seaborn
+Machine Learning: Scikit-learn (modeling, preprocessing, evaluation)
+ 
+Results:
+All final visualizations, key findings, and interpretations are compiled in:
+Wine_Analysis.pdf - This document provides a complete summary of both the EDA and the machine learning results.
+
+Python Scripts:
+🔹 Wine_DescriptiveAnalysis.py
+Performs summary statistics
+Generates plots to explore feature distributions and class-wise differences
+
+🔹 Wine_logistic_regression_classification.py
+Implements classification model (Logistic Regression)
+Evaluates performance (accuracy, precision, recall)
+Generates feature importance plots
+
+Run these scripts from your terminal:
+python Wine_DescriptiveAnalysis.py
+python Wine_logistic_regression_classification.py
