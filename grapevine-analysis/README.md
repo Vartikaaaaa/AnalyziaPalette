@@ -15,15 +15,15 @@ All final visualizations, key findings, and interpretations are compiled in:
 Wine_Analysis.pdf - This document provides a complete summary of both the EDA and the machine learning results.
 
 Python Scripts:
-🔹 Wine_DescriptiveAnalysis.py
+a) Wine_DescriptiveAnalysis.py
 Performs summary statistics
 Generates plots to explore feature distributions and class-wise differences
 
-🔹 Wine_logistic_regression_classification.py
+b) Wine_logistic_regression_classification.py
 Implements classification model (Logistic Regression)
 Evaluates performance (accuracy, precision, recall)
 Generates feature importance plots
 
-Run these scripts from your terminal:
+Run scripts from terminal:
 python Wine_DescriptiveAnalysis.py
 python Wine_logistic_regression_classification.py
