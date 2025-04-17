@@ -1,29 +1,49 @@
-# Wine Dataset Analysis: EDA and Classification with Machine Learning
-This project performs Exploratory Data Analysis (EDA) and classification modeling on the Wine dataset, which contains chemical analysis of wines derived from three different cultivars.
+# 🍷 Wine Dataset Analysis: EDA and Classification with Machine Learning
 
-Objective:
-Explore the dataset thoroughly and understand patterns and feature relationships
-Apply machine learning models to classify wine types accurately
+This project performs **Exploratory Data Analysis (EDA)** and **classification modeling** on the Wine dataset, which contains chemical analysis of wines derived from three different cultivars.
 
-Tools & Technologies:
-Python: NumPy, Pandas
-Data Visualization: Matplotlib, Seaborn
-Machine Learning: Scikit-learn (modeling, preprocessing, evaluation)
- 
-Results:
-All final visualizations, key findings, and interpretations are compiled in:
-Wine_Data_Analysis.pdf - This document provides a complete summary of both the EDA and the machine learning results.
+---
 
-Python Scripts:
-a) Wine_DescriptiveAnalysis.py
-Performs summary statistics
-Generates plots to explore feature distributions and class-wise differences
+## 🎯 Objective
 
-b) Wine_logistic_regression_classification.py
-Implements classification model (Logistic Regression)
-Evaluates performance (accuracy, precision, recall)
-Generates feature importance plots
+- Explore the dataset thoroughly and understand patterns and feature relationships  
+- Apply machine learning models to classify wine types accurately
 
-Run scripts from terminal:
+---
+
+## 🛠️ Tools & Technologies
+
+- **Python**: NumPy, Pandas  
+- **Data Visualization**: Matplotlib, Seaborn  
+- **Machine Learning**: Scikit-learn (modeling, preprocessing, evaluation)
+
+---
+
+## 📄 Results
+
+All final visualizations, key findings, and interpretations are compiled in:  
+📘 **[Wine_Data_Analysis.pdf](./Wine_Data_Analysis.pdf)**  
+This document provides a complete summary of both the EDA and the machine learning results.
+
+---
+
+## 🧾 Python Scripts
+
+### 🔹 `Wine_DescriptiveAnalysis.py`
+- Performs summary statistics  
+- Generates plots to explore feature distributions and class-wise differences
+
+### 🔹 `Wine_logistic_regression_classification.py`
+- Implements classification model (Logistic Regression)  
+- Evaluates performance: accuracy, precision, recall  
+- Generates feature importance plots
+
+---
+
+## ▶️ Run the Scripts
+
+To run the scripts from your terminal:
+
+```bash
 python Wine_DescriptiveAnalysis.py
 python Wine_logistic_regression_classification.py
