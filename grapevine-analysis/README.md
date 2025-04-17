@@ -12,7 +12,7 @@ Machine Learning: Scikit-learn (modeling, preprocessing, evaluation)
  
 Results:
 All final visualizations, key findings, and interpretations are compiled in:
-Wine_Analysis.pdf - This document provides a complete summary of both the EDA and the machine learning results.
+Wine_Data_Analysis.pdf - This document provides a complete summary of both the EDA and the machine learning results.
 
 Python Scripts:
 a) Wine_DescriptiveAnalysis.py
