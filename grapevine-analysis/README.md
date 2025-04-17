@@ -1,4 +1,4 @@
-Wine Dataset Analysis: EDA and Classification with Machine Learning
+# Wine Dataset Analysis: EDA and Classification with Machine Learning
 This project performs Exploratory Data Analysis (EDA) and classification modeling on the Wine dataset, which contains chemical analysis of wines derived from three different cultivars.
 
 Objective:
