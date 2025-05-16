@@ -1,21 +1,7 @@
 # CentralDogmaHub API
 
 **Version:** 1.0.0  
-**Description:** A FastAPI-based bioinformatics backend API implementing core molecular biology sequence operations — reverse complement, transcription, and translation.
-
----
-
-## Table of Contents
-
-- [Project Overview](#project-overview)  
-- [Project Structure](#project-structure)  
-- [Features](#features)  
-- [Installation](#installation)  
-- [Running the Application](#running-the-application)  
-- [API Documentation](#api-documentation)  
-- [Testing](#testing)  
-- [Contributing](#contributing)  
-- [License](#license)  
+**Description:** A FastAPI-based bioinformatics backend API implementing core molecular biology sequence operations — reverse complement, transcription, and translation
 
 ---
 
@@ -43,7 +29,7 @@ app/
 ├── tests/
 │   └── test_full_pipeline.py     # Unit tests for API endpoints
 └── frontend/
-    └── index.py                  # Optional frontend integration or placeholder
+    └── index.py                  # Optional frontend integration or placeholder'''
 
 ##Installation
 pip install -r requirements.txt
