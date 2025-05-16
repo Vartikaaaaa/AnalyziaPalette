@@ -30,6 +30,7 @@ app/
 │   └── test_full_pipeline.py     # Unit tests for API endpoints
 └── frontend/
     └── index.py                  # Optional frontend integration or placeholder'''
+---
 
 ##Installation
 pip install -r requirements.txt
