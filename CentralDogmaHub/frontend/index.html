@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CENTRAL DOGMA!</title>
+</head>
+<body>
+  <h1>Process Your DNA!</h1>
+  <textarea id="dna-input" rows="10" cols="60" placeholder="Paste your DNA sequence here"></textarea><br><br>
+  <button onclick="runPipeline()">Submit</button> 
+
+  <pre id="output"></pre>
+  <button onclick="downloadJSON()">Download Result</button>
+
+  <script>
+    let latestResult = null;
+
+    async function runPipeline() {
+      const dna = document.getElementById("dna-input").value;
+      const response = await fetch("http://127.0.0.1:8000/pipeline", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sequence: dna })
+      });
+
+      const result = await response.json();
+      latestResult = result;
+      document.getElementById("output").textContent = JSON.stringify(result, null, 2);
+    }
+
+    function downloadJSON() {
+      if (!latestResult) return;
+      const blob = new Blob([JSON.stringify(latestResult, null, 2)], { type: 'application/json' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'Outputs.json';
+      link.click();
+    }
+  </script>
+</body>
+</html>
