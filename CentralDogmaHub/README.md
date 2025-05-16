@@ -18,7 +18,7 @@ CentralDogmaHub API provides a modular FastAPI backend for essential biological 
 ## Project Structure
 
 ```plaintext
-app/
+CentralDogmaHub/
 ├── main.py                       # Main FastAPI app and router inclusion
 ├── routes/
 │   └── full_pipeline.py          # Router with API endpoints
@@ -29,10 +29,11 @@ app/
 ├── tests/
 │   └── test_full_pipeline.py     # Unit tests for API endpoints
 └── frontend/
-    └── index.py                  # Optional frontend integration or placeholder'''
----
+    └── index.py                  # Optional frontend integration or placeholder
 
-##Installation
+
+
+## Installation
 pip install -r requirements.txt
 
 ## Running the application 
