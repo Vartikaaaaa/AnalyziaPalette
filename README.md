@@ -11,3 +11,9 @@ Explore full EDA, modeling, and results here:
 ### 🧬 CRISPRome Project  
 Explore the adaptive immunity exploration in extremophiles:  
 **[crisprome-extremophiles-study](https://github.com/Vartikaaaaa/AnalyziaPalette/tree/main/crisprome-extremophiles-study)**
+
+---
+
+### 🧬 CentralDogmaHub  
+API for molecular biology sequence processing (reverse complement, transcription, translation):  
+**[CentralDogmaHub](https://github.com/Vartikaaaaa/AnalyziaPalette/tree/main/CentralDogmaHub)**
